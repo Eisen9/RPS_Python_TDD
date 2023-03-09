@@ -16,4 +16,4 @@
 * We use `self.assertRaises()` to test that the `HumanPlayer` class raises a `ValueError` when the user inputs an invalid move.
 * We test the `ComputerPlayer` class by asserting that the move returned is one of the three valid moves.
 * We test the `Game` class by simulating user input and asserting that the scores are incremented correctly based on the game outcome.
-* To run these tests, save them in a file named `test_game.py` (or any other valid identifier ending in `.py`) in the same directory as the `game.py` file. Then, run the command `python -m unittest test_game.py` from the command line to execute the tests.
+* To run these tests, we save them in a file named `test_game.py` (or any other valid identifier ending in `.py`) in the same directory as the `game.py` file. Then, run the command `python -m unittest test_game.py` from the command line to execute the tests.
